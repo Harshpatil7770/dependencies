@@ -42,5 +42,26 @@
 			<optional>true</optional>
 		</dependency>
     
-    ====================================================================
+    ==================================================================== Cloud Bus amqp =======================================================================
+                <dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+		</dependency>
+		
+		
+		
+ ====================================================================== rabbit test =======================================================================
+                 <dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+======================================================================  spring data jdbc =================================================================
+                <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
+		</dependency>
+		
+======================================================================
     
